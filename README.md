@@ -10,7 +10,7 @@ Java 11 does not support the ARM processor in the Pi Zero.
 
 # Steps to Fix Problem
 1. Install Raspbian Linux OS to SD Card
-1. Open the command shell
+1. Open the command terminal
 1. Run `sudo apt-get install openjdk-8-jre-zero -y`
 
 1. Comment out line "assistive_technologies=..." in "/etc/java-8-openjdk/accessibility.properties"
