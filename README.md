@@ -6,6 +6,7 @@ The following error message can appear when trying to install Arduino IDE on Ras
 `Error occurred during initialization of VM`<br>
 `Server VM is only supported on ARMv7+ VFP`
 
+Java 11 does not support the ARM processor in the Pi Zero.
 
 # Steps to Fix Problem
 1. Install Raspbian Linux OS to SD Card
