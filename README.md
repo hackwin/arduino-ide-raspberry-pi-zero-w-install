@@ -18,7 +18,7 @@ Java 11 does not support the ARM processor in the Pi Zero.
 
 1. Run `sudo apt-get install arduino -y`
 1. Run `sudo update-alternatives --all`
-	1. Keep pressing enter until you see a screens about java
+	1. Keep pressing Enter key until you see lines about java
 	1. Press the corresponding number for "java-8-openjdk...".  This occurs about 8 times out of 20.
 	
 1. Run `arduino` at the command terminal
